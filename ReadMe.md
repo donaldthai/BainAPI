@@ -43,9 +43,11 @@ GET /providers?max_discharges=5&min_discharges=6&max_average_covered_charges=500
 | `min_average_medicare_payments` | The minimum Average Medicare Payment      |
 | `state`                         | The exact state that the provider is from |
 
+```
 Sample Result:
 [
   {
     "drgdefinition":"390 - G.I. OBSTRUCTION W/O CC/MCC","providerid":"450299","providername":"COLLEGE STATION MEDICAL CENTER","providerstreetaddress":"1604 ROCK PRAIRIE ROAD","providercity":"COLLEGE STATION","providerstate":"TX","providerzipcode":"77842","hospitalreferralregiondescription":"TX - Bryan","totaldischarges":12,"averagecoveredcharges":23275.66,"averagetotalpayments":4042.33,"averagemedicarepayments":3204,"_id":"100002","_rev":"1-652bce909bac902b55ca81d837e14416"
   }
 ]
+```
